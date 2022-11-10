@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.contenedor_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.header_titulo{
+    width: 190px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #1E0E62;
+}
+
+.header_email{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1E0E62;
+    width: 41px;
+    height: 22px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.main{
+    margin: 25px;
+}
+
+.main_background{
+    background-color: #f5f5f5;
+}
+
+.section_principal-titulo{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 60px;
+    color: #1E0E62;
+}
+
+.section_principal-parrafo{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+.section_principal-img{
+    width: 270px;
+    border-radius: 10px;
+    height: 236px;
+}
+
+.section_habilidades-titulo{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 28px;  
+    color: #1E0E62;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.section_habilidades-parrafo{
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 2rem;
+}
+
+.section_habilidades-div-titulo{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0E62;
+    margin-bottom: 0.5rem;
+}
+
+.section_habilidades-div-parrafo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 3rem;
+}
+
+.section_experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_trabajo-real{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_experiencia-titulo{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 28px;
+    text-align: center;
+    color: #1E0E62;
+    margin-bottom: 1rem;
+}
+.section_experiencia-parrafo{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.section_experiencia-button{
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: #25DAC5;
+    border-radius: 100px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.section_trabajo-real-titulo{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1E0E62;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.section_trabajo-real-parrafo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 1rem;
+}
+
+.contenedor_footer{
+    background-color: #F1F1F1;
+}
+
+.contenedor_footer-titulo,.contenedor_footer-parrafo{
+    font-weight: 700;
+    color: #1E0E62;
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.contenedor_footer-redes{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_footer-redes-link{
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+}
